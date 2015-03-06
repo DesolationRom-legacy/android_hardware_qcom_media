@@ -39,6 +39,7 @@ libOmxVdec-def += -D_COPPER_
 endif
 
 libOmxVdec-def += -D_ANDROID_ICS_
+libOmxVdec-def += -fno-strict-aliasing
 
 #ifeq ($(TARGET_USES_ION),true)
 libOmxVdec-def += -DUSE_ION
